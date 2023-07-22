@@ -1,6 +1,6 @@
-# Angry IP Scanner
+# Nicly IP Scanner
 
-This is the source code of Angry IP Scanner, licensed with GPL v2. [Official site](https://angryip.org/)
+This is the source code of Nicly IP Scanner, licensed with GPL v2. [Official site](https://Niclyip.org/)
 
 The code is written mostly in Java (currently, source level 11).
 [SWT library from Eclipse project](https://eclipse.org/swt/) is used for GUI that provides native components for each supported platform.
@@ -13,9 +13,9 @@ As there are millions of different networks, configurations and devices, please 
 doesn't work as you expect (especially macOS users). Any problem is easy to fix if you have an environment to reproduce it 😀
 
 For that, download [Intellij IDEA community edition](https://www.jetbrains.com/idea/download/) and open the cloned project.
-Then, you can run Angry IP Scanner in Debug mode and put a breakpoint into the [desired Fetcher class](src/net/azib/ipscan/fetchers).
+Then, you can run Nicly IP Scanner in Debug mode and put a breakpoint into the [desired Fetcher class](src/net/azib/ipscan/fetchers).
 
-## Building [![Actions Status](https://github.com/angryip/ipscan/workflows/CI/badge.svg)](https://github.com/angryip/ipscan/actions)
+## Building [![Actions Status](https://github.com/Niclyip/ipscan/workflows/CI/badge.svg)](https://github.com/Niclyip/ipscan/actions)
 
 Use Gradle for building a package for your desired platform:
 
